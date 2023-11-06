@@ -44,7 +44,7 @@ public class CalculatorApplication implements ActionListener{
     public final void prepareGui(){
         frame.setSize(305,510);
         frame.getContentPane().setLayout(null);
-        frame.getContentPane().setBackground(Color.black);
+        frame.getContentPane().setBackground(Color.gray);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -66,7 +66,7 @@ public class CalculatorApplication implements ActionListener{
         onRadioButton.setBounds(10,95,60,40);
         onRadioButton.setSelected(true);
         onRadioButton.setFont(new Font("Arial",Font.BOLD,14));
-        onRadioButton.setBackground(Color.black);
+        onRadioButton.setBackground(Color.green);
         onRadioButton.setForeground(Color.white);
         onRadioButton.setFocusable(false);
         frame.add(onRadioButton);
@@ -74,7 +74,7 @@ public class CalculatorApplication implements ActionListener{
         offRadioButton.setBounds(10,120,60,40);
         offRadioButton.setSelected(false);
         offRadioButton.setFont(new Font("Arial",Font.BOLD,14));
-        offRadioButton.setBackground(Color.black);
+        offRadioButton.setBackground(Color.red);
         offRadioButton.setForeground(Color.white);
         offRadioButton.setFocusable(false);
         frame.add(offRadioButton);
@@ -185,14 +185,14 @@ public class CalculatorApplication implements ActionListener{
         
         buttonDelete.setBounds(150,110,60,40);
         buttonDelete.setFont(new Font("Arial",Font.BOLD,12));
-        buttonDelete.setBackground(Color.red);
+        buttonDelete.setBackground(Color.blue);
         buttonDelete.setForeground(Color.white);
         buttonDelete.setFocusable(false);
         frame.add(buttonDelete);
         
         buttonClear.setBounds(80,110,60,40);
         buttonClear.setFont(new Font("Arial",Font.BOLD,12));
-        buttonClear.setBackground(Color.red);
+        buttonClear.setBackground(Color.pink);
         buttonClear.setForeground(Color.white);
         buttonClear.setFocusable(false);
         frame.add(buttonClear);
@@ -416,4 +416,4 @@ public class CalculatorApplication implements ActionListener{
            
            
        }
-}
+} 
